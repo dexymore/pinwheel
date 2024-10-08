@@ -1,0 +1,59 @@
+body {
+  background-color: #fafafa;
+  font-family: Merriweather;
+  overflow-x: hidden;
+}
+
+.content-div {
+  display: none; /* Hide all divs by default */
+}
+
+/* Show targeted div */
+.content-div:target {
+  display: block; /* Show the targeted div */
+}
+/* Styles for inactive dots */
+.owl-dots .owl-dot span {
+  background-color: #ccc; /* Default color for inactive dots */
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  display: block;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+/* Styles for active dot */
+.owl-dots .owl-dot.active span {
+  background-color: #ff6700 !important;
+}
+
+/* Styles for hover state */
+.owl-dots .owl-dot:hover span {
+  background-color: #ff6700 !important;
+}
+
+/* Ensure dots are always visible */
+.owl-dots {
+  display: block !important;
+}
+
+.HelpingSectionBg {
+  background-image: linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+  border-top-left-radius: 20px; /* Adjust the value as needed */
+  border-top-right-radius: 20px; /* Adjust the value as needed */
+  border-bottom-left-radius: 80px; /* No radius at the bottom */
+  border-bottom-right-radius: 80px; /* No radius at the bottom */
+}
+
+@media screen and (max-width: 768px) {
+  .HelpingSectionBg {
+    border-top-left-radius: 20; /* Remove the radius at the top */
+    border-top-right-radius: 20; /* Remove the radius at the top */
+    border-bottom-left-radius: 400; /* Remove the radius at the bottom */
+    border-bottom-right-radius: 40; /* Remove the radius at the bottom */
+  width: 98%;
+  ;
+  }
+  
+}
