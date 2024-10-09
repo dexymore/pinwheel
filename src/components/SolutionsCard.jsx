@@ -1,5 +1,6 @@
 
 
+
 const SolutionsCard = ({ title, description, imageUrl }) => {
     return (
             <div className="bg-[#FFFFFF] p-5 shadow-lg rounded-lg ">
@@ -12,5 +13,6 @@ const SolutionsCard = ({ title, description, imageUrl }) => {
         </div>
     );
 };
+
 
 export default SolutionsCard;

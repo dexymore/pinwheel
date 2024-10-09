@@ -18,7 +18,8 @@ const Hero = () => {
             Scale design & dev <br /> operations with <br /> Avocode Enterprise
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-            A fully integrated suite of authentication & authorization products, Stytch’s <br /> platform removes the headache of.
+            A fully integrated suite of authentication & authorization products,
+            Stytch’s <br /> platform removes the headache of.
           </p>
           <a
             href="#"
@@ -31,12 +32,7 @@ const Hero = () => {
           <img src={homePageBanner} alt="mockup" className="relative z-10" />
         </div>
       </div>
-<img
-src={featureShape}
->
-
-</img>
-
+      <img src={featureShape}></img>
     </section>
   );
 };

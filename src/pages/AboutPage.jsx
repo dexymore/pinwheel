@@ -1,11 +1,18 @@
-import React from 'react';
+
+import AboutHero from '../sections/AboutPageSetions/AboutHero';
+import CoresSection from '../sections/AboutPageSetions/CoresSection';
+import GoalSection from '../sections/AboutPageSetions/GoalSection';
+import TeamSection from '../sections/AboutPageSetions/TeamSection';
 
 const AboutPage = () => {
     return (
-        <div>
-            <h1>About Us</h1>
-            <p>Welcome to the About Page. Here you can learn more about our company and team.</p>
-        </div>
+      <>
+  <AboutHero></AboutHero>
+  <GoalSection></GoalSection>
+  <CoresSection></CoresSection>
+  <TeamSection></TeamSection>
+  
+  </>
     );
 };
 

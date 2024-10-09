@@ -59,7 +59,7 @@ function Navbar() {
           <ul className="flex flex-col md:flex-row md:space-x-8  font-medium  ">
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 px-3 hover:text-[#FF6700]  "
                 aria-current="page"
               >
@@ -68,7 +68,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/about"
                 className="block py-2 px-3 hover:text-[#FF6700]  "
               >
                 About

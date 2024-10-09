@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+
+
 import star from "../assets/HomePageAssets/star.svg";
 import starWhite from "../assets/HomePageAssets/star-white.svg";
 
@@ -31,11 +31,6 @@ const TestimonialCard = ({ name, title, testimonial, image }) => {
   );
 };
 
-TestimonialCard.propTypes = {
-  name: PropTypes.string.isRequired,
-  testimonial: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-};
+
 
 export default TestimonialCard;

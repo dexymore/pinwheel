@@ -46,6 +46,15 @@ body {
   border-bottom-right-radius: 80px; /* No radius at the bottom */
 }
 
+.gradientOrangeBg {
+  background-image: linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+}
+.gradientOrangeText {
+  background: linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
   .HelpingSectionBg {
     border-top-left-radius: 20; /* Remove the radius at the top */
