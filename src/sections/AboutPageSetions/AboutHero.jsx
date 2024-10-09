@@ -71,7 +71,7 @@ const AboutHero = () => {
       <img
         src={featureShape}
         alt="Feature shape"
-        className="absolute bottom-0 left-0 " // Adjusted to relative
+        className="absolute bottom-0 left-0 z-[-1] " 
       />
     </section>
   );

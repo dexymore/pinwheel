@@ -32,7 +32,7 @@ const Hero = () => {
           <img src={homePageBanner} alt="mockup" className="relative z-10" />
         </div>
       </div>
-      <img src={featureShape}></img>
+      <img src={featureShape} className="z-[-1] absolute left-0 bottom-0"></img>
     </section>
   );
 };

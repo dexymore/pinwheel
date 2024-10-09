@@ -22,7 +22,7 @@ const Accountability = () => {
                     `}
           >
             <iframe
-              className="md:w-[40rem] md:h-[25rem] w-[120%]  h-[20rem] rounded-xl shadow-md"
+              className="md:w-[40rem] md:h-[25rem] w-[100%]  h-[20rem] rounded-xl shadow-md"
               src="https://www.youtube.com/embed/g3-VxLQO7do"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

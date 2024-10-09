@@ -1,36 +1,53 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="bg-transparent relative z-20 w-full  border-gray-200 ">
+    <nav
+      className={`${
+        isScrolled || isMenuOpen? 'bg-white shadow-md' : 'bg-transparent'
+      } relative w-full z-20 border-gray-200 transition-colors duration-300`}
+    >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          {/* <img
-            src="/"
-            className="h-8"
-         
-          /> */}
-          <span className="self-center text-2xl  whitespace-nowrap font-meduim">
+          <span className="self-center text-2xl whitespace-nowrap font-medium">
             Pinwheel
           </span>
         </a>
         <div className="flex md:order-2 space-x-3 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-black bg-[#fff]  px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:text-[#FF6700]"
+            className="text-black bg-[#fff] px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:text-[#FF6700]"
           >
             Sign up now
           </button>
           <button
             onClick={toggleMenu}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
             aria-controls="navbar-sticky"
             aria-expanded={isMenuOpen}
           >
@@ -53,31 +70,33 @@ function Navbar() {
           </button>
         </div>
         <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isMenuOpen ? '' : 'hidden'}`}
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
+            isMenuOpen ? '' : 'hidden'
+          }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col md:flex-row md:space-x-8  font-medium  ">
+          <ul className="flex flex-col md:flex-row md:space-x-8 z-20 font-medium">
             <li>
               <a
                 href="/"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
                 aria-current="page"
               >
                 Home
               </a>
             </li>
             <li>
-              <a
-                href="/about"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+              <Link
+                to="/about"
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Blog
               </a>
@@ -85,7 +104,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Features
               </a>
@@ -93,7 +112,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 How it Works
               </a>
@@ -101,7 +120,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Pages
               </a>
@@ -109,7 +128,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]  "
+                className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Contact
               </a>
