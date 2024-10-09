@@ -94,12 +94,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to={"/blog"}
                 className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
               <a
