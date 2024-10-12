@@ -34,8 +34,8 @@ const WorkspaceSection = () => {
                   className="w-16 h-16 mx-auto rounded-full"
                   alt="user1"
                 />
-                <span className="w-[100px] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
-                <span className="w-[140px] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[35%] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[50%] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
               </div>
               <div className="flex flex-col bg-white p-6 rounded-xl shadow-xl">
                 <img
@@ -43,8 +43,8 @@ const WorkspaceSection = () => {
                   className="w-16 h-16 mx-auto   rounded-full"
                   alt="user1"
                 />
-                <span className="w-[100px] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
-                <span className="w-[140px] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[35%] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[50%] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
               </div>
               <div className="flex flex-col bg-white p-6 rounded-xl shadow-xl">
                 <img
@@ -52,8 +52,8 @@ const WorkspaceSection = () => {
                   className="w-16 h-16 mx-auto rounded-full"
                   alt="user1"
                 />
-                <span className="w-[100px] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
-                <span className="w-[140px] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[35%] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[50%] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
               </div>
               <div className="flex flex-col bg-white p-6 rounded-xl shadow-xl">
                 <img
@@ -61,8 +61,8 @@ const WorkspaceSection = () => {
                   className="w-16 h-16 mx-auto rounded-full"
                   alt="user1"
                 />
-                <span className="w-[100px] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
-                <span className="w-[140px] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[35%] h-[14px] shadow-3xl my-2 rounded-3xl bg-[#ECECEC] mx-auto"></span>
+                <span className="w-[50%] h-[10px] shadow-3xl rounded-3xl my-2 bg-[#ECECEC] mx-auto"></span>
               </div>
             </div>
             <a
