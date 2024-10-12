@@ -1,6 +1,4 @@
-
-
-const Helping = () => {
+const HelpingSection = () => {
     return (
         <section>
         <div className="max-w-screen-xl HelpingSectionBg mx-auto">
@@ -27,4 +25,4 @@ const Helping = () => {
     );
 };
 
-export default Helping;
+export default HelpingSection;

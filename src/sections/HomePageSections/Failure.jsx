@@ -14,9 +14,9 @@ const Failure = () => {
       <div className="max-w-screen-xl px-4 flex md:flex-row flex-col-reverse py-8 mx-auto">
         <div className="flex w-[100%] mt-6 flex-col text-start">
           <h1 className="max-w-2xl mb-4 text-4xl md:w-[22rem] font-extrabold md:leading-[4rem]">
-            The Highlighting Part Of Our Solution
+          Prevent failure from to impacting your reputation
           </h1>
-          <p className="max-w-2xl mb-4 mt-4 text-2xl text-md md:w-[28rem] text-gray-400 md:leading-[2rem]">
+          <p className="max-w-2xl mb-4 mt-4  text-lg md:w-[28rem] text-gray-400 md:leading-[2rem]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
           </p>
