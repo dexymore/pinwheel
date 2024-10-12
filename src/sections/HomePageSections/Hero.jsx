@@ -4,7 +4,7 @@ import featureShape from "../../assets/HomePageAssets/feature-shape.svg";
 
 const Hero = () => {
   return (
-    <section className="relative h-[82vh]">
+    <section className="relative">
       {/* Background Shape Image */}
       <img
         src={bannerShape}
@@ -17,7 +17,7 @@ const Hero = () => {
           <h1 className="max-w-2xl mb-4 md:text-6xl text-5xl font-extrabold tracking-tight leading-none">
             Scale design & dev <br /> operations with <br /> Avocode Enterprise
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+          <p className="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">
             A fully integrated suite of authentication & authorization products,
             Stytch’s <br /> platform removes the headache of.
           </p>

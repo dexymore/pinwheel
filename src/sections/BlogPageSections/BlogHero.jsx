@@ -21,7 +21,7 @@ const BlogHero = () => {
         <h1 className="mb-4 text-5xl md:text-6xl font-extrabold leading-tight">
           Insight and advice from our expert team.
         </h1>
-        <p className="mb-6 font-light text-gray-500 md:text-lg lg:text-xl">
+        <p className="mb-6 font-light text-gray-400 md:text-lg lg:text-xl">
           Donec sollicitudin molestie malesuada. Donec sollicitudin molestie
           malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies
           ligula sed magna dictum porta. Lorem ipsum dolor sit amet.

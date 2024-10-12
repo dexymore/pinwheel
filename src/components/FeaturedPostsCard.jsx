@@ -18,7 +18,7 @@ const FeaturedPostsCard = ({
           
             <div className="">
               <h2 className="h4 text-xl font-bold my-8">{title}</h2>
-              <p className="text-gray-500 leading-[1.35rem]">{description}</p>
+              <p className="text-gray-400 leading-[1.35rem]">{description}</p>
             </div>
             <div className="mt-6 flex space-x-4 ml-1 mr-1 border-t-2 border-gray-40 pt-4">
               <span className="inline-flex items-center text-xs text-[#666]">

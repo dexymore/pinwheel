@@ -11,7 +11,7 @@ const CoresSection = () => {
           <div className=" flex items-center ml-auto mb-8">
             <a
               href="#"
-              className="gradientOrangeBg font-medium text-xl text-white rounded-full shadow-sm hover:shadow-md px-12 py-3 flex items-center justify-center"
+              className="gradientOrangeBg font-medium text-xl text-white rounded-full shadow-sm  px-12 py-3 flex items-center justify-center hover:shadow-[0_0_5px_rgba(255,255,0,0.4),_0_0_10px_rgba(255,255,0,0.2),_0_0_15px_rgba(255,255,0,0.1)]"
             >
               Download The Theme
             </a>

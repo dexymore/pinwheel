@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,17 +18,17 @@ function Navbar() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <nav
       className={`${
-        isScrolled || isMenuOpen? 'bg-white shadow-md' : 'bg-transparent'
+        isScrolled || isMenuOpen ? "bg-white shadow-md" : "bg-transparent"
       } relative w-full z-20 border-gray-200 transition-colors duration-300`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -47,7 +47,7 @@ function Navbar() {
           <button
             onClick={toggleMenu}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden"
             aria-controls="navbar-sticky"
             aria-expanded={isMenuOpen}
           >
@@ -71,7 +71,7 @@ function Navbar() {
         </div>
         <div
           className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-            isMenuOpen ? '' : 'hidden'
+            isMenuOpen ? "" : "hidden"
           }`}
           id="navbar-sticky"
         >
@@ -102,34 +102,25 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/features"
                 className="block py-2 px-3 hover:text-[#FF6700]"
               >
                 Features
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]"
-              >
+              <a href="#" className="block py-2 px-3 hover:text-[#FF6700]">
                 How it Works
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]"
-              >
+              <a href="#" className="block py-2 px-3 hover:text-[#FF6700]">
                 Pages
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 hover:text-[#FF6700]"
-              >
+              <a href="#" className="block py-2 px-3 hover:text-[#FF6700]">
                 Contact
               </a>
             </li>

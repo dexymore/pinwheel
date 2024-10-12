@@ -17,7 +17,7 @@ const Footer = () => {
             <h1 className="self-center  text-2xl font-semibold whitespace-nowrap">
               pinwheel
             </h1>
-            <p className="mt-3 text-md w-[18rem] font-medium text-gray-500 dark:text-gray-400">
+            <p className="mt-3 text-md w-[18rem] font-medium text-gray-400 dark:text-gray-400">
               lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut .
             </p>
@@ -25,9 +25,9 @@ const Footer = () => {
 
           <div className="flex-1">
             <h2 className="text-xl">Socials</h2>
-            <ul className="flex-col flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <ul className="flex-col flex-wrap items-center mt-3 text-sm font-medium text-gray-400 dark:text-gray-400 sm:mt-0">
               <li>
-                <p className="mt-3 text-md font-medium text-gray-500 dark:text-gray-400">
+                <p className="mt-3 text-md font-medium text-gray-400 dark:text-gray-400">
                   themefisher@gmail.com
                 </p>
               </li>
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="flex-1">
             <h2 className="text-xl mb-3">quick Links</h2>
-            <ul className="flex-col  flex-wrap items-center  text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <ul className="flex-col  flex-wrap items-center  text-sm font-medium text-gray-400 dark:text-gray-400 sm:mt-0">
               <li>
                 <a
                   href="#"
@@ -102,7 +102,7 @@ const Footer = () => {
 
           <div className="flex-1">
             <h2 className="text-xl">Policy</h2>
-            <p className="mt-3 text-md font-medium text-gray-500 dark:text-gray-400">
+            <p className="mt-3 text-md font-medium text-gray-400 dark:text-gray-400">
               2118 Thornridge Cir. Syracuse, Connecticut 35624 (704) 555-0127
             </p>
           </div>

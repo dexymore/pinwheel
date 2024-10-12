@@ -1,5 +1,3 @@
-
-
 import star from "../assets/HomePageAssets/star.svg";
 import starWhite from "../assets/HomePageAssets/star-white.svg";
 
@@ -15,7 +13,7 @@ const TestimonialCard = ({ name, title, testimonial, image }) => {
 
       <div className="bg-[#fff] w-full flex flex-col justify-center items-center text-center py-12 px-4 shadow-md rounded-lg">
         <h3 className="h2">{name}</h3>
-        <h4 className="h2 text-gray-500">{title}</h4>
+        <h4 className="h2 text-gray-400">{title}</h4>
         <p className=" text-gray-600 text-xl ">{testimonial}</p>
 
         {/* Stars centered */}
@@ -30,7 +28,5 @@ const TestimonialCard = ({ name, title, testimonial, image }) => {
     </div>
   );
 };
-
-
 
 export default TestimonialCard;

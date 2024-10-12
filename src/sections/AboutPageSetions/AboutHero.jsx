@@ -16,7 +16,7 @@ const AboutHero = () => {
         <h1 className="mb-4 text-5xl md:text-6xl font-extrabold leading-tight">
           About our company
         </h1>
-        <p className="mb-6 font-light text-gray-500 md:text-lg lg:text-xl">
+        <p className="mb-6 font-light text-gray-400 md:text-lg lg:text-xl">
           Donec sollicitudin molestie malesuada. Donec sollicitudin molestie
           malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies
           ligula sed magna dictum porta. Lorem ipsum dolor sit amet.
@@ -25,7 +25,7 @@ const AboutHero = () => {
         <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
           <a
             href="#"
-            className="gradientOrangeBg text-base font-medium px-12 py-3 text-white rounded-full shadow-sm hover:shadow-md"
+            className="gradientOrangeBg hover:shadow-[0_0_5px_rgba(255,255,0,0.4),_0_0_10px_rgba(255,255,0,0.2),_0_0_15px_rgba(255,255,0,0.1)] text-base font-medium px-12 py-3 text-white rounded-full shadow-sm "
           >
             Download The Theme
           </a>
@@ -71,7 +71,7 @@ const AboutHero = () => {
       <img
         src={featureShape}
         alt="Feature shape"
-        className="absolute bottom-0 left-0 z-[-1] " 
+        className="absolute bottom-0 left-0 z-[-1] "
       />
     </section>
   );

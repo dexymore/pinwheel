@@ -19,8 +19,8 @@ const Solutions = () => {
             {" "}
             The Highlighting Part Of Our Solution
           </h1>
-          <p className="max-w-2xl mb-4 mt-4 text-2xl text-md md:w-[28rem] text-gray-500 md:leading-[2rem]">
-            {" "} 
+          <p className="max-w-2xl mb-4 mt-4 text-2xl text-md md:w-[28rem] text-gray-400 md:leading-[2rem]">
+            {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             egestas Werat viverra id et aliquet. vulputate egestas sollicitudin
             .

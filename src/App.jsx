@@ -4,6 +4,7 @@ import * as $ from "jquery";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import BlogPage from "./pages/BlogPage";
+import FeaturePage from "./pages/FeaturePage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 <Route path="/" element={<HomePage />} />
 <Route path="/about" element={<AboutPage />} />
 <Route path = "/blog" element = {<BlogPage />} />
+<Route path ="/features" element = {<FeaturePage></FeaturePage>} />
 
 </Routes>
   );
